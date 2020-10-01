@@ -1,0 +1,18 @@
+@mixin Buttons {
+  border: none;
+  .anticon {
+    svg {
+      vertical-align: initial;
+    }
+  }
+  &:hover {
+    text-decoration: none;
+  }
+  @media (max-width: 1200px) {
+    font-size: 0.75rem;
+  }
+  @media (max-width: 1200px) {
+    margin-left: 0.5rem;
+    padding: 1px 10px;
+  }
+}

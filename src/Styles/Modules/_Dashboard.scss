@@ -1,0 +1,171 @@
+@import "../Modules/mixins";
+.Image-margin {
+  margin-top: 4rem;
+}
+//Dashboard
+.Dashboard_icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgb(3.5%, 55.3%, 80.4%);
+}
+.LinkList:hover {
+  text-decoration: none;
+}
+.menu-list:hover {
+  border-left: 2px solid #0a8dcd;
+}
+//List Item
+.ListItem {
+  .ant-table-pagination.ant-pagination {
+    margin: 1rem 1rem;
+  }
+  .ant-table {
+    font-size: 0.625rem;
+  }
+}
+//Header Scss
+.Header-Dashboard {
+  min-height: 1.5rem;
+  box-shadow: 0px 3px 6px #00000029;
+  z-index: 1;
+}
+
+//GO Back icon
+.GoBack {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline;
+}
+.Back-arrow {
+  border-radius: 3.125rem;
+  padding: 3px;
+  display: inline-block;
+}
+
+//Dashboard svg
+.Dashboard-icon {
+  width: 1.87rem;
+  height: 1.87rem;
+  background-color: #d4eaf6;
+  border-radius: 50%;
+  padding-top: 0.2rem;
+  cursor: pointer;
+  .ant-image-img {
+    width: 0.9rem;
+  }
+}
+.Caption {
+  color: #818181;
+}
+
+.Create-button-modal {
+  .ant-modal-content {
+    border-radius: 5px;
+  }
+  .ant-modal-body {
+    padding: 0;
+  }
+  .ant-modal-footer,
+  .anticon-close {
+    display: none;
+  }
+}
+.Delete_modal {
+  .ant-modal-footer,
+  .anticon-close {
+    display: none;
+  }
+}
+.Inner-Body {
+  padding: 3rem 5rem 5rem 5rem;
+}
+.Inner_Summary {
+  background-color: #ebf1f5;
+  padding: 0.5rem;
+}
+.OrderId {
+  color: #9ba2a7;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+}
+.Amount {
+  margin: 0 1rem;
+}
+.modal-para {
+  font-size: 0.75rem;
+  margin-bottom: 0.3125rem;
+  margin-left: 0.8rem;
+}
+.Buttons_Color-Change {
+  .ButtonOfAdmin {
+    @include Buttons;
+    background-color: #0a8dcd;
+
+    &:hover {
+      background-color: #0a8dcd;
+    }
+  }
+  .DangerButton {
+    @include Buttons;
+    background-color: #db3a3b;
+    &:hover {
+      background-color: #db3a3b;
+    }
+  }
+
+  .AddButton {
+    @include Buttons;
+    background-color: #21a16c;
+    color: #fff;
+    &:hover {
+      background-color: #21a16c;
+    }
+  }
+  .Cancel_Button {
+    background-color: #dfe2e7;
+    color: #000;
+    @include Buttons;
+    &:hover {
+      background-color: #dfe2e7;
+      color: #000;
+    }
+  }
+}
+.Product-detail {
+  min-height: 20.1rem;
+}
+.schedule-send .ant-modal-content {
+  background-color: #ebf1f5;
+}
+.Layout {
+  margin: 5rem 1rem 1rem 1rem;
+}
+.Dashed_Button {
+  .ant-btn-dashed {
+    color: #098dcd;
+    background: #fff;
+    border-color: #098dcd;
+    border-style: dashed;
+  }
+}
+.no-underline:hover {
+  text-decoration: none;
+}
+.passwordSentPara {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+.Schedule-Modal {
+  .schedule-send {
+    border-color: #58b0dc;
+    background-color: transparent;
+    color: #58b0dc;
+    &:hover {
+      border-color: #58b0dc;
+      background-color: transparent;
+      color: #58b0dc;
+    }
+  }
+}

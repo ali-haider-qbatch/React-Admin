@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+.Upper-header {
+  min-height: 3rem;
+  z-index: 1;
+}
+
+.Image-margin {
+  margin-top: 4rem;
+}
+
+.Dashboard_icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #098dcd;
+}
+
+.LinkList:hover {
+  text-decoration: none;
+}
+
+.menu-list:hover {
+  border-left: 2px solid #0a8dcd;
+}
+
+.ListItem .ant-table-pagination.ant-pagination {
+  margin: 1rem 1rem;
+}
+
+.ListItem .ant-table {
+  font-size: 0.625rem;
+}
+
+.Header-Dashboard {
+  min-height: 1.5rem;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  z-index: 1;
+}
+
+.GoBack {
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline;
+}
+
+.Back-arrow {
+  border-radius: 3.125rem;
+  padding: 3px;
+  display: inline-block;
+}
+
+.Dashboard-icon {
+  width: 1.87rem;
+  height: 1.87rem;
+  background-color: #d4eaf6;
+  border-radius: 50%;
+  padding-top: 0.2rem;
+  cursor: pointer;
+}
+
+.Dashboard-icon .ant-image-img {
+  width: 0.9rem;
+}
+
+.Caption {
+  color: #818181;
+}
+
+.Create-button-modal .ant-modal-content {
+  border-radius: 5px;
+}
+
+.Create-button-modal .ant-modal-body {
+  padding: 0;
+}
+
+.Create-button-modal .ant-modal-footer,
+.Create-button-modal .anticon-close {
+  display: none;
+}
+
+.Delete_modal .ant-modal-footer,
+.Delete_modal .anticon-close {
+  display: none;
+}
+
+.Inner-Body {
+  padding: 3rem 5rem 5rem 5rem;
+}
+
+.Inner_Summary {
+  background-color: #ebf1f5;
+  padding: 0.5rem;
+}
+
+.OrderId {
+  color: #9ba2a7;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+}
+
+.Amount {
+  margin: 0 1rem;
+}
+
+.modal-para {
+  font-size: 0.75rem;
+  margin-bottom: 0.3125rem;
+  margin-left: 0.8rem;
+}
+
+.Buttons_Color-Change .ButtonOfAdmin {
+  border: none;
+  background-color: #0a8dcd;
+}
+
+.Buttons_Color-Change .ButtonOfAdmin .anticon svg {
+  vertical-align: initial;
+}
+
+.Buttons_Color-Change .ButtonOfAdmin:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .Buttons_Color-Change .ButtonOfAdmin {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Buttons_Color-Change .ButtonOfAdmin {
+    margin-left: 0.5rem;
+    padding: 1px 10px;
+  }
+}
+
+.Buttons_Color-Change .ButtonOfAdmin:hover {
+  background-color: #0a8dcd;
+}
+
+.Buttons_Color-Change .DangerButton {
+  border: none;
+  background-color: #db3a3b;
+}
+
+.Buttons_Color-Change .DangerButton .anticon svg {
+  vertical-align: initial;
+}
+
+.Buttons_Color-Change .DangerButton:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .Buttons_Color-Change .DangerButton {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Buttons_Color-Change .DangerButton {
+    margin-left: 0.5rem;
+    padding: 1px 10px;
+  }
+}
+
+.Buttons_Color-Change .DangerButton:hover {
+  background-color: #db3a3b;
+}
+
+.Buttons_Color-Change .AddButton {
+  border: none;
+  background-color: #21a16c;
+  color: #fff;
+}
+
+.Buttons_Color-Change .AddButton .anticon svg {
+  vertical-align: initial;
+}
+
+.Buttons_Color-Change .AddButton:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .Buttons_Color-Change .AddButton {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Buttons_Color-Change .AddButton {
+    margin-left: 0.5rem;
+    padding: 1px 10px;
+  }
+}
+
+.Buttons_Color-Change .AddButton:hover {
+  background-color: #21a16c;
+}
+
+.Buttons_Color-Change .Cancel_Button {
+  background-color: #dfe2e7;
+  color: #000;
+  border: none;
+}
+
+.Buttons_Color-Change .Cancel_Button .anticon svg {
+  vertical-align: initial;
+}
+
+.Buttons_Color-Change .Cancel_Button:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .Buttons_Color-Change .Cancel_Button {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Buttons_Color-Change .Cancel_Button {
+    margin-left: 0.5rem;
+    padding: 1px 10px;
+  }
+}
+
+.Buttons_Color-Change .Cancel_Button:hover {
+  background-color: #dfe2e7;
+  color: #000;
+}
+
+.Product-detail {
+  min-height: 20.1rem;
+}
+
+.schedule-send .ant-modal-content {
+  background-color: #ebf1f5;
+}
+
+.Layout {
+  margin: 5rem 1rem 1rem 1rem;
+}
+
+.Dashed_Button .ant-btn-dashed {
+  color: #098dcd;
+  background: #fff;
+  border-color: #098dcd;
+  border-style: dashed;
+}
+
+.no-underline:hover {
+  text-decoration: none;
+}
+
+.passwordSentPara {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+.Schedule-Modal .schedule-send {
+  border-color: #58b0dc;
+  background-color: transparent;
+  color: #58b0dc;
+}
+
+.Schedule-Modal .schedule-send:hover {
+  border-color: #58b0dc;
+  background-color: transparent;
+  color: #58b0dc;
+}
+
+.Guideline {
+  padding: 1.5rem;
+  padding-left: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.Guideline-list {
+  font-size: 0.75rem;
+  list-style: none;
+  color: #9b9b9b;
+}
+
+.Guideline-list .Guideline-list-item::before {
+  content: "\2022";
+  color: #ccc;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -31px;
+  margin-bottom: 5px;
+  font-size: 1.25rem;
+}
+/*# sourceMappingURL=Styles.css.map */

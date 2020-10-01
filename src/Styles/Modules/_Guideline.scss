@@ -1,0 +1,23 @@
+// @import "../Modules/Variable";
+// @import "../Modules/mixins";
+.Guideline {
+  padding: 1.5rem;
+  padding-left: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.Guideline-list {
+  font-size: 0.75rem;
+  list-style: none;
+  color: #9b9b9b;
+
+  .Guideline-list-item::before {
+    content: "\2022";
+    color: #ccc;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -31px;
+    margin-bottom: 5px;
+    font-size: 1.25rem;
+  }
+}
