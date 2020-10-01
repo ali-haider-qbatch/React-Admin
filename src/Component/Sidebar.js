@@ -135,7 +135,7 @@ export class Sidebar extends Component {
           </Sider>
           <Layout className="site-layout">
             <Content>
-              <Route path="/Layout" component={Dashboard} />
+              <Route exact path="/Layout" component={Dashboard} />
               <Route path="/listItem" component={ListItem} />
               <Route path="/strategy" component={Strategy} />
               <Route path="/order" component={Order} />

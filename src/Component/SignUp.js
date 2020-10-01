@@ -70,7 +70,7 @@ function SignUp() {
                   </small>
                 </Link>
                 <Form.Item>
-                  <Link to="/dashboard" className="Buttons_Color-Change">
+                  <Link to="/Layout" className="Buttons_Color-Change">
                     <Button
                       type="primary"
                       htmlType="submit"
